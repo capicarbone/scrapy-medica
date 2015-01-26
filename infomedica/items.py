@@ -5,7 +5,9 @@
 
 from scrapy.item import Item, Field
 
-class InfomedicaItem(Item):
+class DoctorItem(Item):
     # define the fields for your item here like:
-    # name = Field()
-    pass
+    nombre = Field()
+    correo = Field()
+    especialidad = Field()
+    
